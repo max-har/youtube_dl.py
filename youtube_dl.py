@@ -11,4 +11,4 @@ import os
 if __name__ == '__main__':
     # code below is only executed when the module is run directly
     myurl = input('URL: ')
-    os.system('youtube-dl -x --audio-format "flac" --audio-quality 0 '+myurl)
+    os.system('youtube-dl -x --audio-format "best" --audio-quality 5 '+myurl)

@@ -1,14 +1,14 @@
-# youtube2flac
+# youtube_dl.py
 
 ## How to
 
-1. run `python3 youtube2flac.py`
+1. run `python3 youtube_dl.py`
 2. paste URL
-3. check output in present working directory
+3. find output file in present working directory
 
 ## How it works
 
-uses your local youtube-dl and the command `youtube-dl -x --audio-format "flac" --audio-quality 0 <URL>`
+uses your local youtube-dl and the command `youtube-dl -x --audio-format "best" --audio-quality 5 <URL>`
 
 `-x, --extract-audio`: Convert video files to audio-only files (requires ffmpeg or avconv and ffprobe or avprobe)
 
